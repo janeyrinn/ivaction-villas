@@ -5,6 +5,13 @@
 	padding: 0px;
 }
 
+a {
+    color: ;
+    text-decoration: none; /* no underline */
+  }
 
 /* Nav Bar */
 
+.bg-dark {
+    background-color: rgba(255,255,255,0.0)!important;
+}
