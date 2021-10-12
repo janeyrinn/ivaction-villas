@@ -8,6 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.white-rule {
+    background-color: white !important;
+}
+
 /* Nav Bar */
 
 .logo {
@@ -19,8 +23,14 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
     position: fixed;
+    z-index: 999;
+}
+
+
+.navbar-dark {
+    background-color:rgba(0, 0, 0, 0.25) !important;
 }
 
 .navbar .navbar-toggler {
@@ -30,7 +40,7 @@ body {
 /* Hero Image & Call-Out Container */
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/assets/images/hero-image.jpg");
     height: 90vh;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -88,4 +98,45 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #444444;
+}
+
+/* Bookings Info Section */
+
+#bookings-container {
+    background-color: black;
+    color: white;
+}
+
+.bookings-info-header {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.bookings-info-text {
+    font-weight: 300;
+}
+
+/* Cleaning Service Section */
+
+#cleaning-container {
+    background-image: url(/assets/images/cleaning-service.jpg);
+    height: 50vh;
+    padding: 0;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cleaning-row {
+    margin-left: 10%;
+    margin-right: 0;
+    padding-top: 2%;
+}
+.cleaning {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    margin-top: 40px;
 }

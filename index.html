@@ -29,46 +29,47 @@
 </head>
 <body>
 <header>
+      <!--Start Nav-Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png" alt="logo" /></a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-white list-inline list-unstyled text-md-right text-lg-right my-0 ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Short-term Lease
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Liabilities</a>
+                <a class="dropdown-item" href="#">How its Taxed</a>
+                <a class="dropdown-item" href="#">Record</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Property Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>
 <section id="callout-container">
   <div class="hero-image">
-    <!--Start Nav-Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png" alt="logo" /></a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav text-white list-inline list-unstyled text-md-right text-lg-right my-0 ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Information</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Company</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Short-term Lease
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Liabilities</a>
-              <a class="dropdown-item" href="#">How its Taxed</a>
-              <a class="dropdown-item" href="#">Record</a>
-            </div>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Property Registration</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <div class="row">
       <div class="col-12 hero-text">
         <h1 class="callout-heading">Accomodation Management</h1>
@@ -78,10 +79,10 @@
     </div>
   </div>
 </section>
-</header>
 
 <main>
-<div class="container">
+  <!--Start Features Section-->
+<div id="features-container" class="container">
   <div class="row ml-auto pt-5 pb-5 text-center">
     <div class="col-12 col-md-6 col-lg-4">
       <div class="feature">
@@ -113,6 +114,38 @@
     </div>
   </div>
 </div>
+  <!--Start Bookings Info Section-->
+<div  id="bookings-container" class="container-fluid">
+  <div class="row ml-auto pt-5 pb-5 text-center">
+    <div class="col-12">
+      <div class="">
+        <h2 class="bookings-info-header">We undertake full management of your bookings</h2>
+        <hr class="white-rule">
+        <p class="bookings-info-text">I-Vacation offers you a complete accommodation management service in Crete, in full cooperation with the property owners and with the main concern of optimizing returns.
+          Specifically, we undertake communication with your customers, aiming at creating a strong online reputation, integrating channel manager for all booking platforms and creating your own website. (Villas, apartments, hostels, guesthouses, hotels and rooms to let).
+          <br>
+          <strong>We can manage accommodations in all of Crete, Xania, Rethymno, Heraklion, Lassithi.</strong></p>
+      </div>
+    </div>
+</div>
+</div>
+
+<!--Start Cleaning Service Section-->
+<div id="cleaning-container" class="container-fluid">
+  <div class="">
+    <div class="row cleaning-row">
+      <div class="col-sm-12 col-md-4 cleaning">
+        <h3>Cleaning Services</h3>
+        <p>Our company works with specialized cleaning services, which ensure a 
+          high level of cleanliness and disinfection, necessary for a truly healthy
+          and clean environment in your accommodation.</p>
+      </div>
+      <div class="col-sm-12 col-md-8">
+      </div>
+    </div>
+  </div>
+</div>
+
 </main>
 
 </body>
