@@ -1,12 +1,7 @@
 /* General Settings */
 
-html  {
-    height: 100%;
-    overflow: hidden;
-}
-
 body {
-    color: #fff;
+    color: black;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -24,18 +19,18 @@ body {
     border: 0;
     width: 100%;
     background-color: transparent !important;
+    position: fixed;
 }
 
 .navbar .navbar-toggler {
     border: 0;
 }
 
-
 /* Hero Image */
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/assets/images/hero-image.jpg");
-    height: 100vh;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,4 +44,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* Features Section */
+
+.feature i { /* this class will target feat 1,2 & 3 size */
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height:45px;
+    color: #BF8654;
+}
+
+.feature-heading {
+    font-weight: 300;
+    
+}
+
+.feature-text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #444444;
 }
