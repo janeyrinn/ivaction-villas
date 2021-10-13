@@ -121,7 +121,7 @@ body {
 
 #cleaning-container {
     background-image: url(/assets/images/cleaning-service.jpg);
-    height: 50vh;
+    height: 65vh;
     padding: 0;
     background-position: center right;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ body {
 
 #decorating-container {
     background-image: url(/assets/images/decorating-tips.jpg);
-    height: 50vh;
+    height: 65vh;
     padding: 0;
     background-position: center right;
     background-repeat: no-repeat;
