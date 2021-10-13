@@ -256,31 +256,17 @@ body {
 /* Optimize Entries Section */
 
 #entries-container {
-    background-image: url(/assets/images/entries.jpg);
-    height: 65vh;
-    padding: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #444444;
+    color: white;
 }
 
-.entries-row {
-   
+.entries-info-header {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.entries {
-    background-color: rgb(255, 255, 255, 0.5);
-    color: black;
-
-}
-
-.entries-header {
+.entries-info-text {
     font-weight: 300;
-    color: #444444;
-}
-
-.entries-text {
-    font-weight: 300;
-    color: #444444;
 }
