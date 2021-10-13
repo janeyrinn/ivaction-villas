@@ -211,26 +211,12 @@ body {
 }
 
 .result-item {
-    position: relative;
-    max-width: 250px;
-    width: 100px;
     margin-bottom: 40px;
-}
-
-.chart-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-top: 100%;
-    margin-bottom: 27px;
-    border: 3px solid white;
-    border-radius: 50%;
-    background: white;
+    text-align: center;
 }
 
 .result-item .chart, 
 .result-item .chart canvas {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
@@ -238,19 +224,17 @@ body {
 }
 
 .result-item .chart:before {
-    content: "";
+    
     width: 0;
     height: 100%;
 }
 
 .result-item .chart:before,
 .result-item .percent {
-    display: inline-block;
     vertical-align: middle;
 }
 
 .result-item .percent {
-    position: relative;
     line-height: 1;
     font-size: 70px;
     color: #333;
@@ -262,11 +246,41 @@ body {
     content: attr(data-after);
     font-size: 20px;
 }
-
 .results-p {
     font-weight: 300;
     color: #444444;
     font-size: 18px;
     margin-top: 40px;
-    
+}
+
+/* Optimize Entries Section */
+
+#entries-container {
+    background-image: url(/assets/images/entries.jpg);
+    height: 65vh;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.entries-row {
+   
+}
+
+.entries {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+
+}
+
+.entries-header {
+    font-weight: 300;
+    color: #444444;
+}
+
+.entries-text {
+    font-weight: 300;
+    color: #444444;
 }
