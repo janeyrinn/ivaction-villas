@@ -198,59 +198,28 @@ body {
 
 /* Animated Results Section */
 
-.b-results {
-    padding-top: 46px;
-    text-align: center;
+.results-container {
 }
 
 .results-header {
+    text-transform: capitalize;
+    font-weight: 400;
     font-size: 40px;
-    color: #444444;
     margin-bottom: 20px;
-    font-weight: 300;
+    color:#444444;
 }
 
-.result-item {
-    margin-bottom: 40px;
+.results-text {
+    font-weight: 300;
+    color: #5983D9;
+    font-size: 30px;
+}
+
+.results-img {
     text-align: center;
-}
-
-.result-item .chart, 
-.result-item .chart canvas {
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.result-item .chart:before {
-    
-    width: 0;
-    height: 100%;
-}
-
-.result-item .chart:before,
-.result-item .percent {
-    vertical-align: middle;
-}
-
-.result-item .percent {
-    line-height: 1;
-    font-size: 70px;
-    color: #333;
-    font-weight: 300;
-    z-index: 2;
-}
-
-.result-item .percent:after {
-    content: attr(data-after);
-    font-size: 20px;
-}
-.results-p {
-    font-weight: 300;
-    color: #444444;
-    font-size: 18px;
-    margin-top: 40px;
+    line-height: 100px;
+    width: 80%;
+    z-index: 200;
 }
 
 /* Optimize Entries Section */
