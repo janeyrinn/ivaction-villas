@@ -29,8 +29,8 @@ body {
 }
 
 
-.navbar-dark {
-    background-color:rgba(0, 0, 0, 0.25) !important;
+.navbar-light {
+    background-color:rgb(250, 249, 249, .75) !important;
 }
 
 .navbar .navbar-toggler {
@@ -139,7 +139,6 @@ body {
 .cleaning {
     background-color: rgb(255, 255, 255, 0.5);
     color: black;
-    padding-left: 10px;
     margin-top: 40px;
 }
 
@@ -178,7 +177,6 @@ body {
 .decorating {
     background-color: rgb(255, 255, 255, 0.75);
     color: black;
-    padding-left: 10px;
     margin-top: 40px;
 }
 
@@ -242,10 +240,11 @@ body {
     font-weight: 300;
 }
 
-.entries-card{
+.entries-card {
     background-color: rgb(255, 255, 255, 0.75);
     color: black;
-    padding-left: 10px;
-    padding-right: 10px;
     margin-top: 40px;
 }
+
+/* Start Registration Form */
+
