@@ -276,21 +276,48 @@
 <!--Start Footer-->
 <footer>
   <div class="container-fluid ">
-    <div class="row  footer-container text-center bg-dark">
+    <div class="row  footer-container text-center">
+      <!--Start Maps Column-->
       <div class="col-sm-12 col-md-4">
         <div class="row">
-          <div class="col-12 text-md-left">
-            <h4 class="footer-header">Find Us</h4>
+          <div class="col-12">
+            <h4 class="footer-header text-center">Find Us</h4>
+            <hr class="footer-rule">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.621194550534!2d24.481589150298102!3d35.36504613446922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75092a00bd5f%3A0x2becdb908916ef98!2sALLhost.gr!5e0!3m2!1sen!2sgr!4v1634211018155!5m2!1sen!2sgr"
-              width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <p class="footer-p"><i class="fas fa-map-marker-alt"></i> Venieri 5, Rethimno</p>
                 <p class="footer-p"><i class="fas fa-phone"></i> 2831020771</p>
                 <p class="footer-p"><i class="fas fa-envelope"></i><a class="footer-a" href="mailto:info@ivaction.gr"> info@ivacation.gr</a></p>
             </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4">Contact</div>
-      <div class="col-sm-12 col-md-4">Connect</div>
+      <!--Start Logo Column-->
+      <div class="col-sm-12 col-md-4">Logo</div>
+
+      <!--Start Contact Us Column-->
+      <div class="col-sm-12 col-md-4">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="footer-header ">Contact Us</h4>
+            <hr class="footer-rule">
+            <form id="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputName" placeholder="fullname">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="inputemail" placeholder="email address">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="inputContact" placeholder="telephone">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="messageArea" placeholder="Your message..." rows="6"></textarea>
+              </div>
+              <button type="submit" class="btn contact-btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!--Start Copyright Sub Footer-->

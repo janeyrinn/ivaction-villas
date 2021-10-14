@@ -245,7 +245,7 @@ body {
     margin-top: 40px;
 }
 
-/* Start Registration Form */
+/* Start Forms */
 
 #registration-container{
     margin-bottom: 20px;
@@ -294,18 +294,57 @@ body {
     box-shadow: 0 1px 3px 0 #444444 !important;
 }
 
-/* */
+form#contact-form .form-control {
+    display: inline-flex;
+    width: 80%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .75rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-btn {
+    border: 1px solid #BF8654;
+    background-color: #BF8654;
+    border-radius: 0;
+    color: white;
+    font-weight: 400;
+    box-shadow: 0 1px 3px 0 #444444 !important;
+}
+
+.contact-btn:hover {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0;
+    color: #BF8654;
+    font-weight: 400;
+    box-shadow: 0 1px 3px 0 #444444 !important;
+}
+
 
 /* Start Footer */
 
 .footer-container {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #333333;
 }
 
 .footer-header{
     color: white;
     font-weight: 400;
+}
+
+.footer-rule {
+    background-color: white;
+    width: 5%;
 }
 .footer-p {
     color: white;
