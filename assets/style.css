@@ -16,14 +16,13 @@ body {
 
 .logo {
     height: auto;
-    max-height: 100px;
+    max-height: 80px;
 }
 
 .navbar { 
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    /*background-color: transparent !important;*/
     position: fixed;
     z-index: 999;
 }
@@ -248,3 +247,9 @@ body {
 
 /* Start Registration Form */
 
+.registration-header {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
