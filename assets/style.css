@@ -293,3 +293,9 @@ body {
     font-weight: 400;
     box-shadow: 0 1px 3px 0 #444444 !important;
 }
+
+.copyright {
+    font-size: 10px;
+    font-weight: 300;
+    color:#444444;
+}
