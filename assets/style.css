@@ -294,6 +294,36 @@ body {
     box-shadow: 0 1px 3px 0 #444444 !important;
 }
 
+/* */
+
+/* Start Footer */
+
+.footer-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-header{
+    color: white;
+    font-weight: 400;
+}
+.footer-p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-a:hover {
+    text-decoration: none;
+    color: #BF8654;
+    cursor: pointer !important;
+}
+
 .copyright {
     font-size: 10px;
     font-weight: 300;
