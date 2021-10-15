@@ -60,7 +60,12 @@ body {
 
 
 .navbar-light {
+    transition: 750ms ease-in;
     background-color:rgb(250, 249, 249, .75) !important;
+}
+
+.navbar-light.scrolled {
+    background-color: white!important;
 }
 
 .navbar .navbar-toggler {
