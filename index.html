@@ -259,6 +259,13 @@
   </div>
 </div>
 
+<!--Start back to top button-->
+<div class="btt-btn bg-pink shadow-sm">
+  <a class="btt-link d-flex h-100">
+    <i class="fas fa-chevron-up mx-auto my-auto"></i>
+  </a>
+</div>
+
 <!--Start Footer-->
 <footer>
   <div class="container-fluid" id="footer-container">
@@ -341,10 +348,25 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
 
-<!--Start Change nav color on scroll effect-->
-<script>
+
+  <script>
+    // back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.btt-btn').fadeIn();
+        } else {
+            $('.btt-btn').fadeOut();
+        }
+    });
+    $('.btt-btn').click(function (e) {
+        window.scrollTo(0, 0)
+    });
 </script>
-<!--Start Auto Generate Copyright year script-->
-<script>$("#copyright").text(new Date().getFullYear());</script>
+
+<script>
+// Auto Generate Copyright year script
+$("#copyright").text(new Date().getFullYear());
+</script>
+
 </body>
 </html> 
