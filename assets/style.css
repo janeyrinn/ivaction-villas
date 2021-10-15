@@ -108,6 +108,8 @@ body {
 .callout-btn:hover {
     background-color: white;
     color: #BF8654;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 
 /* Features Section */
@@ -416,10 +418,11 @@ form#contact-form .form-control {
 }
 
 .connect-btn:hover {
-    border: 1px solid #37D932;
-    background-color:#37D932;
+    border: 1px solid white;
+    background-color: white;
     border-radius: 9px;
     padding: 10px;
-    color: white !important;
+    color: #37D932 !important;
     font-weight: 400;
+    transition: 0.3s;
 }
