@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!--Main Custom CSS-->
+    <link rel="stylesheet" href="assets/style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap" rel="stylesheet">
+    <title>iVacation Villas</title>
+</head>
+
+<body>
+  
+<header>
+      <!--Start Nav-Bar-->
+      <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt="logo" /></a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-white list-inline list-unstyled text-md-right text-lg-right my-0 ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-container">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookings-container">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lease.html">Short-term Lease</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#registration-container">Property Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer-container">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="callout-container">
+        <div class="hero-image-shortTermLease">
+          <div class="row">
+            <div class="col-12 hero-text">
+              <h1 class="callout-heading">Short-term Lease</h1>
+                <h2 class="callout-body-text">How it's taxed</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+</header>
+
+<!--Start Footer-->
+<footer>
+  <div class="container-fluid" id="footer-container">
+    <div class="row  footer-container text-center">
+      <!--Start Maps Column-->
+      <div class="col-sm-12 col-md-4">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="footer-header text-center">Find Us</h4>
+            <hr class="footer-rule">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.621194550534!2d24.481589150298102!3d35.36504613446922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75092a00bd5f%3A0x2becdb908916ef98!2sALLhost.gr!5e0!3m2!1sen!2sgr!4v1634211018155!5m2!1sen!2sgr"
+              width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+      </div>
+      <!--Start Logo Column-->
+      <div class="col-sm-12 col-md-4">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="footer-header ">Connect your Property</h4>
+            <hr class="footer-rule">
+            <p class="footer-p">When you are connected you will have access
+              in real time to the availabilities calendar and your reservations.</p>
+              <a class="btn connect-btn" href="https://www.ivacation.gr/login.html" target="_blank">Connect <i class="fas fa-random"></i></a>
+          </div>
+          <div class="col-12">
+            <img src="assets/images/logo.png" alt="logo" class="footer-logo ml-auto">
+            <p class="footer-p"><i class="fas fa-map-marker-alt"></i> Venieri 5, Rethimno</p>
+                <p class="footer-p"><i class="fas fa-phone"></i> 2831020771</p>
+                <p class="footer-p"><i class="fas fa-envelope"></i><a class="footer-a" href="mailto:info@ivaction.gr"> info@ivacation.gr</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!--Start Contact Us Column-->
+      <div class="col-sm-12 col-md-4">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="footer-header ">Contact Us</h4>
+            <hr class="footer-rule">
+            <form id="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputName" placeholder="fullname">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="inputemail" placeholder="email address">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="inputContact" placeholder="telephone">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="messageArea" placeholder="Your message..." rows="6"></textarea>
+              </div>
+              <button type="submit" class="btn contact-btn">Send</button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Start Copyright Sub Footer-->
+  <div class="container-fluid">
+    <div class="row bg-light">
+      <div class="col-sm-12 pl-0 pr-0">
+          <p class="pt-2 text-center copyright">Copyright &copy;  Ivacation - Designed by ALLhost <span id="copyright"></span></p>
+      </div>
+  </div>
+</div>
+</footer>
+
+<!--Start back to top button-->
+<div class="btt-btn bg-pink shadow-sm">
+    <a class="btt-link d-flex h-100">
+      <i class="fas fa-chevron-up mx-auto my-auto"></i>
+    </a>
+  </div>
+
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+
+  <script>
+    // Changes opacity of nav on scroll
+    $(window).scroll(function(){
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 100)
+    });
+
+
+    // back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.btt-btn').fadeIn();
+        } else {
+            $('.btt-btn').fadeOut();
+        }
+    });
+    $('.btt-btn').click(function (e) {
+        window.scrollTo(0, 0)
+    });
+
+// Auto Generate Copyright year script
+$("#copyright").text(new Date().getFullYear());
+</script>
+
+</body>
+</html> 

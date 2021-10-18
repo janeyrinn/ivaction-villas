@@ -60,7 +60,7 @@ body {
 
 
 .navbar-light {
-    transition: 750ms ease-in;
+    transition: 450ms ease-in;
     background-color:rgb(250, 249, 249, .75) !important;
 }
 
@@ -72,10 +72,20 @@ body {
     border: 0;
 }
 
-/* Hero Image & Call-Out Container */
+/* Hero Images & Call-Out Containers */
+
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/assets/images/hero-image.jpg");
+    height: 90vh;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-image-shortTermLease {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/assets/images/hero-short-term-lease.jpg");
     height: 90vh;
     background-position: bottom center;
     background-repeat: no-repeat;
