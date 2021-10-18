@@ -9,6 +9,8 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <!--Main Custom CSS-->
     <link rel="stylesheet" href="assets/style.css">
+    <!--AOS Library script below-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
     <!--Google Fonts-->
@@ -64,8 +66,8 @@
         </div>
       </nav>
       <!--Start Hero Container-->
-      <section id="callout-container">
-        <div class="hero-image">
+      <section id="wrapper callout-container">
+        <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="right-left" data-aos-delay="500" class="hero-image">
           <div class="row">
             <div class="col-12 hero-text">
               <h1 class="callout-heading">Accomodation Management</h1>
@@ -381,6 +383,12 @@
 // Auto Generate Copyright year script
 $("#copyright").text(new Date().getFullYear());
 </script>
+
+  <!--Hero Image Animation Scripts-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html> 
