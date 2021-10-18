@@ -58,7 +58,6 @@ body {
     z-index: 999;
 }
 
-
 .navbar-light {
     transition: 450ms ease-in;
     background-color:rgb(250, 249, 249, .75) !important;
@@ -69,6 +68,12 @@ body {
 }
 
 .navbar .navbar-toggler {
+    border: 0;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    border-radius: 0;
     border: 0;
 }
 
