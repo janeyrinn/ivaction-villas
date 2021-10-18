@@ -114,12 +114,19 @@ body {
     font-size: 50px;
 }
 
-.callout-body-text {
+.callout-body-text-home {
     text-transform: uppercase;
     color: #5983D9;
     font-weight: 800;
     font-size: 40px;
 }
+.callout-body-text-lease {
+    text-transform: uppercase;
+    color: #37D932;
+    font-weight: 800;
+    font-size: 40px;
+}
+
 .callout-btn:hover {
     background-color: white;
     color: #BF8654;
@@ -442,4 +449,18 @@ form#contact-form .form-control {
     color: #37D932 !important;
     font-weight: 400;
     transition: 0.3s;
+}
+
+/* Features Section */
+
+.lease-header {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 40px;
+    color: #444444;
+}
+
+.lease-p {
+    font-weight: 300;
+    color: #444444;
 }
