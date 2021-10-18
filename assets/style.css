@@ -305,7 +305,7 @@ body {
 .entries-card {
     background-color: rgb(255, 255, 255, 0.75);
     color: black;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 /* Start Forms */
@@ -468,4 +468,71 @@ form#contact-form .form-control {
 .lease-p {
     font-weight: 300;
     color: #444444;
+}
+
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width: 700px) {
+/* Small Mobile Devices*/
+.btt-btn {
+    height: 52px;
+    width: 52px;
+    font-size: 30px;;
+    font-weight: 300;
+    position: fixed;
+    bottom:50px;
+    right: 20px;
+    border-radius: 50%;
+    color: #444444;
+    border: solid #444444 1px;
+    display: none;
+}
+
+.btt-btn:hover {
+    height: 42px;
+    width: 42px;
+    font-size: 20px;;
+    font-weight: 300;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 50%;
+    color: white;
+    border: solid #BF8654 1px;
+    background-color: #BF8654;
+    display: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.entries-info-header {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.entries-card {
+    background-color: rgb(255, 255, 255, 0.75);
+    color: black;
+    margin-top: 50px;
+}
+
+.decorating {
+    background-color: rgb(255, 255, 255, 0.75);
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.cleaning {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
 }
