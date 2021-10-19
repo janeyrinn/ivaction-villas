@@ -274,7 +274,8 @@ body {
 .results-img {
     text-align: center;
     line-height: 100px;
-    width: 80%;
+    width: 50%;
+    height: 70%;
     z-index: 200;
 }
 
