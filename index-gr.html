@@ -324,18 +324,18 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
           <div class="col-12">
             <h4 class="footer-header ">Επικοινωνήστε μαζί μας</h4>
             <hr class="footer-rule">
-            <form id="contact-form">
+            <form id="contact-form"  action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
               <div class="form-group">
-                <input type="text" class="form-control" id="inputFullName" placeholder="Πλήρες όνομα">
+                <input type="text" class="form-control" name="inputFullName" id="inputFullName" placeholder="Πλήρες όνομα">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="inputemail" placeholder="ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ">
+                <input type="email" class="form-control" name="inputemail" id="inputemail" placeholder="ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ">
               </div>
               <div class="form-group">
-                <input type="number" class="form-control" id="inputContact" placeholder="Τηλέφωνο">
+                <input type="number" class="form-control" name="inputContact" id="inputContact" placeholder="Τηλέφωνο">
               </div>
               <div class="form-group">
-                <textarea class="form-control" id="messageArea" placeholder="Το μήνυμά σου..." rows="6"></textarea>
+                <textarea class="form-control" name="messageArea" id="messageArea" placeholder="Το μήνυμά σου..." rows="6"></textarea>
               </div>
               <button type="submit" class="btn contact-btn">Αποστολη</button>
             </form>
