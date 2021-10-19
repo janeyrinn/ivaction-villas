@@ -224,16 +224,16 @@
             <hr class="footer-rule">
             <form id="contact-form"  action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
               <div class="form-group">
-                <input type="text" class="form-control" name="inputFullName" id="inputFullName" placeholder="Πλήρες όνομα">
+                <input type="text" class="form-control" min="2" name="inputFullName" id="inputFullName" placeholder="Πλήρες όνομα" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="inputemail" id="inputemail" placeholder="ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ">
+                <input type="email" class="form-control" name="inputemail" id="inputemail" placeholder="ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ" required>
               </div>
               <div class="form-group">
-                <input type="number" class="form-control" name="inputContact" id="inputContact" placeholder="Τηλέφωνο">
+                <input type="number" class="form-control" min="10" name="inputContact" id="inputContact" placeholder="Τηλέφωνο" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="messageArea" id="messageArea" placeholder="Το μήνυμά σου..." rows="6"></textarea>
+                <textarea class="form-control" min="20" name="messageArea" id="messageArea" placeholder="Το μήνυμά σου..." rows="6" required></textarea>
               </div>
               <button type="submit" class="btn contact-btn">Αποστολη</button>
             </form>
