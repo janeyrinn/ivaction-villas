@@ -294,7 +294,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
             <h4 class="footer-header text-center">Βρες μας</h4>
             <hr class="footer-rule">
               <iframe id="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.621194550534!2d24.481589150298102!3d35.36504613446922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b75092a00bd5f%3A0x2becdb908916ef98!2sALLhost.gr!5e0!3m2!1sen!2sgr!4v1634211018155!5m2!1sen!2sgr"
-              width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
       </div>
@@ -371,16 +371,17 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+<!--Animation Scripts-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-  <script>
-    // Changes opacity of nav on scroll
+<!--Custom Scripts-->
+<script>
+  // Changes opacity of nav on scroll
     $(window).scroll(function(){
       $('nav').toggleClass('scrolled', $(this).scrollTop() > 100)
     });
 
-
-    // back to top button
+  // back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.btt-btn').fadeIn();
@@ -394,13 +395,10 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
 
 // Auto Generate Copyright year script
 $("#copyright").text(new Date().getFullYear());
-</script>
 
- <!--Animation Scripts-->
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
- <script>
-   AOS.init();
- </script>
+// animation initializer
+AOS.init();
+</script>
 
 </body>
 </html> 
