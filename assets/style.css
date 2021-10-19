@@ -83,7 +83,7 @@ body {
 
 
 .hero-image { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("ivaction-villas/assets/images/.hero-img.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("assets/images/.hero-img.jpg");
     height: 90vh;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body {
 }
 
 .hero-image-shortTermLease {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/assets/images/hero-short-term-lease.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("assets/images/hero-short-term-lease.jpg");
     height: 90vh;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ body {
 /* Cleaning Service Section */
 
 #cleaning-container {
-    background-image: url(/assets/images/cleaning.jpg);
+    background-image: url(assets/images/cleaning.jpg);
     height: 65vh;
     padding: 0;
     background-position: center right;
@@ -228,7 +228,7 @@ body {
 /* Decorating Tips Section */
 
 #decorating-container {
-    background-image: url(/assets/images/decorating.jpg);
+    background-image: url(assets/images/decorating.jpg);
     height: 65vh;
     padding: 0;
     background-position: center right;
@@ -292,7 +292,7 @@ body {
 
 #entries-container {
     background-color: #444444;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/assets/images/entries.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(assets/images/entries.jpg);
     color: white;
     height: 65vh;
     background-position: center right;
