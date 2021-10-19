@@ -223,39 +223,39 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
       <h2 class="registration-header">Register your Property</h2>
     </div>
     <div class="col-12">
-      <form id="registration-form">
+      <form id="registration-form" action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputName">Name</label>
-            <input type="text" class="form-control" id="inputName" required>
+            <input type="text" name="inputName" class="form-control" id="inputName" required>
           </div>
           <div class="form-group col-md-6">
             <label for="inputSurname">Surname</label>
-            <input type="text" class="form-control" id="inputSurname" required>
+            <input type="text" name="inputSurname" class="form-control" id="inputSurname" required>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" required>
+            <label for="inputEmail">Email</label>
+            <input type="email" name="inputEmail" class="form-control" id="inputEmail" required>
           </div>
           <div class="form-group col-md-6">
             <label for="contact">Contact Number</label>
-            <input type="number" class="form-control" id="contact" required>
+            <input type="number" name="contact" class="form-control" id="contact" required>
           </div>
         </div>
         <div class="form-group">
-          <label for="inputAddress">Accomodation Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+          <label for="accomodationAddress">Accomodation Address</label>
+          <input type="text" name="accomodationAddress" class="form-control" id="accomodationAddress" placeholder="1234 Main St" required>
         </div>
         <div class="form-group">
-          <label for="inputAddress2">Accomodation Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          <label for="accomodationAddress2">Accomodation Address 2</label>
+          <input type="text" name="accomodationAddress2" class="form-control" id="accomodationAddress2" placeholder="Apartment, studio, or floor">
         </div>
         <div class="form-row">
           <div class="form-group col-md-4">
-            <label for="inputType">Property Type</label>
-            <select id="inputType" class="form-control" required>
+            <label for="propertyType">Property Type</label>
+            <select id="propertyType" name="propertyType" class="form-control" required>
               <option selected>Choose...</option>
               <option>Villa</option>
               <option>Hotel</option>
@@ -264,8 +264,8 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
             </select>
           </div>
           <div class="form-group col-md-4">
-            <label for="inputRegion">Region</label>
-            <select id="inputRegion" class="form-control" required>
+            <label for="region">Region</label>
+            <select id="region" name="region" class="form-control" required>
               <option selected>Choose...</option>
               <option>Rethymno</option>
               <option>Xania</option>
@@ -275,7 +275,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
           </div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="textarea1" placeholder="More Information" rows="4"></textarea>
+          <textarea class="form-control" id="message" name="message" placeholder="More Information" rows="4"></textarea>
       </div>
         <button type="submit" class="btn register-btn">Register</button>
       </form>
