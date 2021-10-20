@@ -267,35 +267,8 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
 
-
-  <script>
-    // Changes opacity of nav on scroll
-    $(window).scroll(function(){
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 100)
-    });
-
-
-    // back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.btt-btn').fadeIn();
-        } else {
-            $('.btt-btn').fadeOut();
-        }
-    });
-    $('.btt-btn').click(function (e) {
-        window.scrollTo(0, 0)
-    });
-
-// Auto Generate Copyright year script
-$("#copyright").text(new Date().getFullYear());
-</script>
-
-<!--Animation Scripts-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+<!--Custom Scripts-->
+<script src="assets/script.js"></script>
 
 </body>
 </html> 
