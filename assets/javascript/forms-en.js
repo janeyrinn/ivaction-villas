@@ -40,6 +40,41 @@ function validateRegistrationForm() {
       }
     }
 
+// Validate inputs in contact form
+
+function validateContactForm() {
+  var name = document.getElementById("fullName");
+  var emailaddress = document.getElementById("emailAddress");
+  var contact = document.getElementById("contactNumber");
+  var message = document.getElementById("messageArea");
+
+  // if statement validates against empty input and special characters,  
+  if (name.value.trim() == ""|| !/^[a-zA-Z\s]*$/g.test(name.value) ) {
+    errorModal("Name required, no special characters");
+    name.focus();
+    return false;
+  }
+
+  // if statement validates against empty input
+  if (emailaddress.value == "") {
+    errorModal("Email required");
+    emailaddress.focus();
+    return false;
+  }
+
+  if (contact.value == "" || isNaN(contact.value) || contact.value.length != 10) {
+      errorModal("Contact number required (10 digits)");
+      contact.focus();
+      return false;
+    }
+
+    if (message.value.trim() == "") {
+      errorModal("More information required");
+      message.focus();
+      return false;
+    }
+  }
+
   // Below will change the error message in the validation modal
 
   function errorModal(errMsg) {

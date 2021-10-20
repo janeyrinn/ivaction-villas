@@ -346,9 +346,9 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
           <div class="col-12">
             <h4 class="footer-header ">Contact Us</h4>
             <hr class="footer-rule">
-            <form id="contact-form" action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
+            <form id="contact-form" onsubmit="return (validateContactForm())" action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
               <div class="form-group">
-                <input type="text" name="fullName" class="form-control" id="fullName" placeholder="fullname" required>
+                <input type="text" name="fullName" class="form-control" id="fullName" minlength="2" placeholder="fullname" required>
               </div>
               <div class="form-group">
                 <input type="email" name="emailAddress" class="form-control" id="emailAddress" placeholder="email address" required>
@@ -357,7 +357,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
                 <input type="number" name="contactNumber" class="form-control" id="contactNumber" placeholder="telephone" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="messageArea" id="messageArea" placeholder="Your message..." rows="6" required></textarea>
+                <textarea class="form-control" name="messageArea" id="messageArea" minlength="20" placeholder="Your message..." rows="6" required></textarea>
               </div>
               <button type="submit" class="btn contact-btn">Send</button>
             </form>
@@ -398,6 +398,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
 
 <!--Custom Script-->
 <script src="assets/javascript/script.js"></script>
-<script src="assets/javascript/registration-en.js"></script>
+<script src="assets/javascript/forms-en.js"></script>
+
 </body>
 </html> 
