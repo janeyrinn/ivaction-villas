@@ -262,6 +262,7 @@ body {
 .decorating-text {
     font-weight: 300;
     color: #444444;
+    margin-bottom: 48px;
 }
 
 /* Animated Results Section */
@@ -566,6 +567,17 @@ form#contact-form .form-control {
     color: black;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+#ct-gr.cleaning-text {
+    margin-bottom: 5px;
+    line-height: .75;
+}
+#dt-gr.decorating-text {
+    font-weight: 300;
+    color: #444444;
+    margin-bottom: 5px;
+    line-height: .75;
 }
 
 .cleaning {
