@@ -283,8 +283,8 @@ body {
 .results-img {
     text-align: center;
     line-height: 100px;
-    width: 50%;
-    height: 70%;
+    width: 48%;
+    height: 65%;
     z-index: 200;
 }
 
@@ -545,6 +545,10 @@ form#contact-form .form-control {
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 2px;
+}
+
+.entries-info-text {
+    line-height: .75;
 }
 
 .entries-card {
