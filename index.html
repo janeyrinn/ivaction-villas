@@ -225,7 +225,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
       <h2 class="registration-header">Register your Property</h2>
     </div>
     <div class="col-12">
-      <form id="registration-form" action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
+      <form id="registration-form" onsubmit="return (validateRegistrationForm())" id="contact-form" action="https://formsubmit.co/jane.rinn@gmail.com" method="POST">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputName">Name</label>
@@ -243,7 +243,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
           </div>
           <div class="form-group col-md-6">
             <label for="contact">Contact Number</label>
-            <input type="number" name="contact" class="form-control" id="contact" required>
+            <input type="number" name="contact" class="form-control" minlength="10" id="contact" required>
           </div>
         </div>
         <div class="form-group">
@@ -285,6 +285,26 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
   </div>
 </div>
 
+<section>
+        <div class="modal fade" id="validationModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Information Invalid</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p id="validationMessage">
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <!--Start Footer-->
 <footer>
   <div class="container-fluid" id="footer-container">
@@ -376,7 +396,7 @@ data-aos-anchor-placement="top-center" data-aos-duration="1500">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!--Custom Script-->
-<script src="assets/script.js"></script>
-
+<script src="assets/javascript/script.js"></script>
+<script src="assets/javascript/registration-en.js"></script>
 </body>
 </html> 

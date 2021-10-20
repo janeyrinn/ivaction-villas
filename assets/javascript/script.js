@@ -21,5 +21,4 @@ $(".btt-btn").click(function (e) {
 $("#copyright").text(new Date().getFullYear());
 
 // animation initializer
-
 AOS.init();
