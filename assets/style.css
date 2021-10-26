@@ -441,10 +441,11 @@ form#contact-form .form-control {
 
 .footer-logo {
     width: 40%;
-    object-fit: cover;
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
+    height: auto;
+    max-height: 80px;
 }
 .copyright {
     font-size: 10px;
