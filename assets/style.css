@@ -85,6 +85,9 @@ body {
 .hero-image { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/hero-img.jpg);
     height: 90vh;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,6 +97,9 @@ body {
 .hero-image-shortTermLease {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/hero-short-term-lease.jpg);
     height: 90vh;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,6 +198,9 @@ body {
     background-image: url(../assets/images/cleaning.jpg);
     height: 65vh;
     padding: 0;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,6 +240,9 @@ body {
     background-image: url(../assets/images/decorating.jpg);
     height: 65vh;
     padding: 0;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,6 +308,9 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/entries.jpg);
     color: white;
     height: 65vh;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -617,5 +632,11 @@ body {
     overflow-x: hidden;
     line-height: 1;
 }
+}
 
+/* CSS specific to iOS devices, to fix image rendering in Safari */ 
+@supports (-webkit-touch-callout: none) {
+    .footer-logo {
+        min-height: 100px;
+    }
 }
