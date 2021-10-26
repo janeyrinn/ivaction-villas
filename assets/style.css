@@ -526,6 +526,10 @@ form#contact-form .form-control {
     transition: 0.3s;
 }
 
+.feature-text {
+    line-height: 1.5;
+}
+
 
 .bookings {
     margin-left: 10px;
