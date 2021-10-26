@@ -102,7 +102,6 @@ body {
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .hero-text {
@@ -203,7 +202,6 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .cleaning-row {
@@ -245,7 +243,6 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .decorating-row {
@@ -313,7 +310,6 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .entries-info-header {
@@ -564,7 +560,7 @@ form#contact-form .form-control {
 }
 
 .cleaning-text {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     line-height: 1.5;
 }
 
@@ -585,7 +581,7 @@ form#contact-form .form-control {
 .decorating-text {
     font-weight: 300;
     color: #444444;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     line-height: 1.5;
 }
 
