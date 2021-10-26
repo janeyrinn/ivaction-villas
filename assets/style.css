@@ -89,10 +89,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -webkit-background-attachment: none;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 }
 
 .hero-image-shortTermLease {
@@ -618,6 +614,164 @@ form#contact-form .form-control {
     margin-bottom: 2px;
 }
 }
+
+@media only screen and (min-width: 1100px) {
+    /* Large Desktop Devices*/
+    
+    .feature-text {
+        line-height: 1.5;
+    }
+    
+    .bookings {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .bookings-info-header {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .bookings-info-text {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    #cleaning-container {
+        height:fit-content;
+    }
+    
+    .cleaning {
+        background-color: rgb(255, 255, 255, 0.5);
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    #decorating-container {
+        height:fit-content;
+    }
+
+    .decorating {
+        background-color: rgb(255, 255, 255, 0.75);
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    .decorating-text {
+        font-weight: 300;
+        color: #444444;
+        margin-bottom: 25px;
+        line-height: 1.5;
+    }
+    
+    #entries-container {
+        height:fit-content;
+    }
+    .entries-info-header {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .entries-info-text {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    
+    .entries-card {
+        background-color: rgb(255, 255, 255, 0.75);
+        color: black;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    }
+
+    @media only screen and (min-width: 1600px) {
+        /* Extra Large Desktop Devices*/
+        
+        .feature-text {
+            line-height: 1.5;
+        }
+        
+        .bookings {
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .bookings-info-header {
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        .bookings-info-text {
+            line-height: 1.5;
+            font-size: 20px;
+        }
+    
+        #cleaning-container {
+            height:fit-content;
+        }
+        
+        .cleaning {
+            background-color: rgb(255, 255, 255, 0.5);
+            color: black;
+            margin-bottom: 30px;
+        }
+        
+        #decorating-container {
+            height:fit-content;
+        }
+    
+        .decorating {
+            background-color: rgb(255, 255, 255, 0.75);
+            color: black;
+            margin-bottom: 30px;
+        }
+        
+        .decorating-text {
+            font-weight: 300;
+            color: #444444;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        
+        #entries-container {
+            height:fit-content;
+        }
+        .entries-info-header {
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        .entries-info-text {
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        
+        .entries-card {
+            background-color: rgb(255, 255, 255, 0.75);
+            color: black;
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        }
 
 /* Media Query to fix white space on right of screen */
 @media
