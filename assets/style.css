@@ -85,23 +85,25 @@ body {
 .hero-image { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/hero-img.jpg);
     height: 90vh;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .hero-image-shortTermLease {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/hero-short-term-lease.jpg);
     height: 90vh;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .hero-text {
@@ -202,6 +204,7 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .cleaning-row {
@@ -243,6 +246,7 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .decorating-row {
@@ -310,6 +314,7 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .entries-info-header {
@@ -494,7 +499,6 @@ form#contact-form .form-control {
     font-weight: 300;
     color: #444444;
 }
-
 
 /* Media Queries */
 
