@@ -499,6 +499,100 @@ form#contact-form .form-control {
 
 /* Media Queries */
 
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+    /*  Tablet Devices*/
+    #google-maps {
+        height: 180px;
+        width: 240px;
+    }
+
+    .feature-text {
+        line-height: 1.5;
+    }
+    
+    .bookings {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .bookings-info-header {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .bookings-info-text {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    #cleaning-container {
+        height:fit-content;
+    }
+    
+    .cleaning {
+        background-color: rgb(255, 255, 255, 0.5);
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .cleaning-text {
+        font-weight: 300;
+        color: #444444;
+        margin-bottom: 25px;
+        line-height: 1.5;
+    }
+    
+    #decorating-container {
+        height:fit-content;
+    }
+
+    .decorating {
+        background-color: rgb(255, 255, 255, 0.75);
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    .decorating-text {
+        font-weight: 300;
+        color: #444444;
+        margin-bottom: 25px;
+        line-height: 1.5;
+    }
+    
+    #entries-container {
+        height:fit-content;
+    }
+    .entries-info-header {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .entries-info-text {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    
+    .entries-card {
+        background-color: rgb(255, 255, 255, 0.75);
+        color: black;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
 @media only screen and (max-width: 700px) {
 /* Small Mobile Devices*/
 
@@ -506,6 +600,7 @@ form#contact-form .form-control {
     font-weight: 500;
     font-size: 40px;
 }
+
 .btt-btn {
     height: 52px;
     width: 52px;
@@ -623,8 +718,8 @@ form#contact-form .form-control {
     }
     
     .bookings {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -694,8 +789,8 @@ form#contact-form .form-control {
         background-color: rgb(255, 255, 255, 0.75);
         color: black;
         margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -709,8 +804,8 @@ form#contact-form .form-control {
         }
         
         .bookings {
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 150px;
+            margin-right: 150px;
             padding-left: 10px;
             padding-right: 10px;
         }
@@ -764,6 +859,7 @@ form#contact-form .form-control {
         #entries-container {
             height:fit-content;
         }
+
         .entries-info-header {
             text-transform: capitalize;
             font-weight: 500;
@@ -780,8 +876,8 @@ form#contact-form .form-control {
             background-color: rgb(255, 255, 255, 0.75);
             color: black;
             margin-top: 50px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 150px;
+            margin-right: 150px;
             padding-left: 20px;
             padding-right: 20px;
         }
