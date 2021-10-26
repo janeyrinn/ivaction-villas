@@ -650,6 +650,13 @@ form#contact-form .form-control {
         color: black;
         margin-bottom: 30px;
     }
+
+    .cleaning-text {
+        font-weight: 300;
+        color: #444444;
+        margin-bottom: 25px;
+        line-height: 1.5;
+    }
     
     #decorating-container {
         height:fit-content;
@@ -698,7 +705,7 @@ form#contact-form .form-control {
         /* Extra Large Desktop Devices*/
         
         .feature-text {
-            line-height: 1.5;
+            line-height: 2;
         }
         
         .bookings {
@@ -716,7 +723,7 @@ form#contact-form .form-control {
         }
         
         .bookings-info-text {
-            line-height: 1.5;
+            line-height: 2;
             font-size: 20px;
         }
     
@@ -728,6 +735,13 @@ form#contact-form .form-control {
             background-color: rgb(255, 255, 255, 0.5);
             color: black;
             margin-bottom: 30px;
+        }
+
+        .cleaning-text {
+            font-weight: 300;
+            color: #444444;
+            margin-bottom: 25px;
+            line-height: 2;
         }
         
         #decorating-container {
@@ -744,7 +758,7 @@ form#contact-form .form-control {
             font-weight: 300;
             color: #444444;
             margin-bottom: 25px;
-            line-height: 1.5;
+            line-height: 2;
         }
         
         #entries-container {
@@ -758,7 +772,7 @@ form#contact-form .form-control {
         }
         
         .entries-info-text {
-            line-height: 1.5;
+            line-height: 2;
             font-size: 20px;
         }
         
