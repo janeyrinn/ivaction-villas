@@ -927,7 +927,7 @@ body {
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: schroll;
+        background-attachment: scroll;
     }
     #decorating-container {
         background-image: url(../assets/images/decorating.jpg);
@@ -936,7 +936,7 @@ body {
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: schroll;
+        background-attachment: scroll;
     }
     #entries-container {
         background-color: #444444;
