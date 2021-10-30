@@ -949,3 +949,10 @@ body {
         background-attachment: scroll;
     }
 }
+
+.chart {
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+    position: relative;
+}
