@@ -271,7 +271,7 @@ body {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color:#444444;
 }
 
@@ -279,14 +279,46 @@ body {
     font-weight: 300;
     color: #5983D9;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
-.results-img {
+/*.results-img {
     text-align: center;
     line-height: 100px;
     width: 48%;
     height: 65%;
     z-index: 200;
+}*/
+
+
+.chart {
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 190px;
+}
+
+.chart-text {
+    font-weight: 300;
+    color: #5983D9;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    margin-top: 20px;
+}
+
+.results-container {
+    margin: 70px auto;
+    margin-bottom: 150px;
 }
 
 /* Optimize Entries Section */
@@ -948,11 +980,4 @@ body {
         background-size: cover;
         background-attachment: scroll;
     }
-}
-
-.chart {
-    height: 110px;
-    width: 110px;
-    margin: 0 auto;
-    position: relative;
 }
